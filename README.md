@@ -1,7 +1,10 @@
-# Network and Security Summary — Need4Rides
+# Need4Rides: Network and Security Summary
 ## BSc final project (Graded 19 out of 20)
 ---
 
+> The entire machine network described in this document is built and managed through a set of automated Bash scripts (.sh). These scripts handle everything from creating and configuring instances to failover and scaling. For security reasons, these scripts are not publicly available, as they contain sensitive credentials and infrastructure configuration details.
+
+---
 ## Network Architecture
 
 The infrastructure runs on AWS in the eu-west-1 region, inside a dedicated VPC called **taxi-vpc** with CIDR block 10.0.0.0/16. The VPC is split into three subnets, each with a distinct role, following the principle of layer separation.
