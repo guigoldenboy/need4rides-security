@@ -59,10 +59,6 @@ The real security here comes from the private key (.pem), not from restricting t
 
 ---
 
-&nbsp;
-
----
-
 ## Load Balancing and High Availability
 
 Two load balancers run in active-passive mode. The primary serves all normal traffic; the secondary sits in standby. Both run Nginx and Keepalived.
